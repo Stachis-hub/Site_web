@@ -1,0 +1,265 @@
+
+.titre{
+	font-style: 
+}
+.none{
+
+}
+
+@media screen and (max-width:800px) {
+  .none, .section, .section1, .alldiv, .div1a, .div1b, .div1c, .div2a {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+
+.partLI{
+	float: right; 
+	background-color: rgb(177, 110, 175);
+}
+.footer{
+	text-align: center;
+	background-color: black;
+	height: auto;
+	width: auto;
+	color: white;
+}
+.section{
+	display: flex;
+	width: 100%;
+	background-color: #f3eefa;
+	border-style: solid;
+	border-color: pink;
+}
+.section1{
+	height: auto;
+	width: auto;
+	border-style: solid;
+	border-color: rgb(97, 26, 28);
+}
+.alldiv{
+	display: table;
+	text-align: justify;
+	float: left;
+}
+
+.Img1{
+	float: left;
+	display: table;
+}
+.s1d1{
+	background-color: red;
+	width: 100%;
+	height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+.first{
+	background-image: url('bk.JPG');
+	width: auto;
+	height: auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 5.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 200%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.div1a{
+	height: auto;
+	width: auto;
+	background-color: white;
+}
+.div1b{
+	height: auto;
+	width: auto;
+	background-color: white;
+}.div1c{
+	height: auto;
+	width: auto;
+	background-color: white;
+}
+.div2a{
+	border-color: grey;
+	border-style: solid;
+	height: auto;
+	width: auto;
+	background-image: url('imgEGW.jpg');
+	opacity: 0.8;
+}
+
+.pdiv2a{
+	color: black;
+}
+
+
+.div2b{
+	height: auto;
+	width: auto;
+	border-color: grey;
+	border-style: solid;
+}
+
+.div2c{
+	height: auto;
+	width: auto;
+	border-color: grey;
+	border-style: solid;
+	background-color: white;
+}
+
+.Retour{
+	height: 13%;
+	width: auto;
+}
+
+.section2{
+	height: auto;
+	width: 70%;
+	background-color: #f3eefa;
+}
+p{
+	text-align: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-style: dotted;
+  border-color: black rgb(255, 220, 86) black rgb(255, 220, 86) ;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(190, 203, 125);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+  color: redss;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+img{
+	height: 130px;
+}
+p{
+	text-align: justify;
+}
+
+
+
+ .slider{
+    width: 120px;
+    overflow: hidden;
+    margin: 190px auto;
+  }
+  .slides{
+    width: calc(120px*10);
+    animation: glisse 10s infinite;
+  }
+  .slide {
+    float: left;
+  }
+
+  @keyframes glisse {
+    0%{
+      transform: translateX(0);
+    }
+    3%{
+      transform: translateX(0);
+    }
+    10%{
+      transform: translateX(-120px);
+    }
+    13%{
+      transform: translateX(-120px);
+    }
+    20%{
+      transform: translateX(-240px);
+    }
+    23%{
+      transform: translateX(-240px);
+    }
+    30%{
+      transform: translateX(-360px);
+    }
+    33%{
+      transform: translateX(-360px);
+    }
+    40%{
+      transform: translateX(-480px);
+    }
+    41%{
+      transform: translateX(-480px);
+    }
+    45%{
+      transform: translateX(-600px);
+    }
+    50%{
+      transform: translateX(-600px);
+    }
+    54%{
+      transform: translateX(-720px);
+    }
+    63%{
+      transform: translateX(-720px);
+    }
+    68%{
+      transform: translateX(-840px);
+    }
+    72%{
+      transform: translateX(-840px);
+    }
+    77%{
+      transform: translateX(-960px);
+    }
+    81%{
+      transform: translateX(-960px);
+    }
+    86%{
+      transform: translateX(-1080px);
+    }
+    90%{
+      transform: translateX(-1080px);
+    }
+    95%{
+      transform: translateX(-1200px);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
